@@ -1,18 +1,20 @@
 #!/bin/bash
-# setup.sh — one-time setup script for the AI Resume Agent
+# setup.sh — one-time setup script, shared across all homeworks in this repo
 #
-# Run this script once after cloning the repo:
+# Run this script once from the repo root, right after cloning:
 #     bash setup.sh
 #
 # What it does:
 #   1. Checks that Python 3 is installed
-#   2. Creates a Python virtual environment (venv)
-#   3. Installs all required packages
+#   2. Creates a Python virtual environment (venv) at the repo root
+#   3. Installs all required packages (requirements.txt is shared/cumulative
+#      across homeworks, so you only set this up once)
 #   4. Creates your .env file from the template (if it doesn't exist yet)
 #
 # After running this script, you still need to:
 #   - Add your OpenRouter API key to .env
-#   - Run: source venv/bin/activate && python app.py
+#   - Activate the venv (source venv/bin/activate) and cd into the homework
+#     folder you're working on (e.g. "homework 0") to run its app.py
 
 set -e   # stop immediately if any command fails
 

@@ -41,6 +41,19 @@ Since each homework lives in its own folder, this should merge cleanly. If you
 hit a conflict, it means you edited a file that was also updated upstream —
 resolve it by keeping your changes and re-adding the new content, then commit.
 
+## One-time environment setup
+
+Right after cloning your fork, run the setup script from the repo root:
+
+```bash
+bash setup.sh
+```
+
+This creates a single Python virtual environment (`venv/`) and installs
+`requirements.txt` at the repo root — shared across every homework, so you
+only do this once. Each homework's own README (e.g. `homework 0/README.md`)
+covers how to run that specific app.
+
 ## Important links 
 
 - [Google Classrooms](https://classroom.google.com/c/ODY4NzQ1MjU2NjUx)

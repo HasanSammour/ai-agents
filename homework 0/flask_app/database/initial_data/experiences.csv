@@ -1,7 +1,4 @@
-"experience_id","position_id","name","description","hyperlink","start_date","end_date"
-"1","1","CSE 477","Taught an introductory course on web application design.","https://www.youtube.com/@ghassemi",NULL,NULL
-"2","1","CSE 847","Taught a hands-on introduction to Natural Language Processing.","https://www.youtube.com/@ghassemi",NULL,NULL
-"3","2","Feature Imitating Networks","Developed a new kind of neural network that is better faster and stronger.","https://ghassemi.xyz","2020-01-01",NULL
-"4","3","BRAINWORKS","Developed a platform to organize the scientific literature as a knowledge graph.","https://github.com/deskool/brainworks-public","2020-01-01",NULL
-"5","3","BRIDGE2AI","Developed a $100M initiative to assist with AI research.","https://commonfund.nih.gov/bridge2ai","2020-01-01",NULL
-"6","1","CSE 491","Taught a hands-on introduction to AI Agents.",NULL,NULL,NULL
+experience_id,position_id,name,description,hyperlink,start_date,end_date
+1,1,Tamman – Mental Health Support Platform,"Led a team to build a full-stack platform for remote psychological support. Features: mood tracking, assessments (PHQ-9, GAD-7, PCL-5), gamified rewards, real-time chat, admin dashboard.",https://github.com/HasanSammour/tamman-platform,2025-01-01,NULL
+2,1,MediBook – Medical Appointment System,"Platform for managing appointments across hospitals, doctors, and patients with role-based access, conflict detection, payment tracking, and interactive dashboards.",https://github.com/HasanSammour/MediBook,2026-01-01,2026-06-01
+3,1,E-Learning Platform (LMS),"Comprehensive LMS with multi-role system, course management, live session scheduling, assignment grading, AI-powered learning paths, and analytics dashboard.",https://github.com/HasanSammour/IUG-Training-Task-12,2026-01-01,2026-06-01

@@ -29,10 +29,10 @@ app, socketio = create_app()
 
 if __name__ == "__main__":
     print("Starting AI Resume Agent...")
-    print("Open your browser to: http://localhost:8080")
+    print("Open your browser to: http://localhost:8081")
     # NOTE: use_reloader=False is required with eventlet.
     # Werkzeug's reloader starts the app twice, and the second process
     # tries to bind the same port while the first is already using it.
     # To see Python changes, stop the server (Ctrl+C) and restart it.
     # HTML/CSS/JS changes are visible on browser refresh with no restart needed.
-    socketio.run(app, host='0.0.0.0', port=8080, debug=True, use_reloader=False)
+    socketio.run(app, host='0.0.0.0', port=8081, debug=True, use_reloader=False)

@@ -1,5 +1,11 @@
-"skill_id","experience_id","name","skill_level"
-"1","2","Javascript","7"
-"2","2","Python","10"
-"3","2","HTML","9"
-"4","2","CSS","5"
+skill_id,experience_id,name,skill_level
+1,1,PHP,9
+2,1,Laravel,9
+3,1,MySQL,8
+4,1,JavaScript,8
+5,2,Git,8
+6,2,RESTful APIs,8
+7,2,Bootstrap,8
+8,3,Chart.js,7
+9,3,FullCalendar,7
+10,3,DomPDF,7
